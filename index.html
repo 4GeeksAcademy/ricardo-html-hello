@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Brisa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-amber-50 text-stone-800 font-sans">
+
+  <header class="bg-stone-900 text-amber-50">
+    <nav class="max-w-6xl mx-auto flex items-center justify-between p-4">
+      <a href="index.html" class="text-2xl font-bold tracking-wide">Café Brisa</a>
+      <ul class="flex gap-6">
+        <li><a href="#menu" class="hover:text-amber-400">Menú</a></li>
+        <li><a href="#nosotros" class="hover:text-amber-400">Nosotros</a></li>
+        <li><a href="contact.html" class="hover:text-amber-400">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero flex items-center justify-center text-center text-white min-h-[70vh] px-4">
+    <div>
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Café Brisa</h1>
+      <p class="text-lg md:text-xl mb-8">Café de especialidad, tostado con cariño y servido con calma.</p>
+      <a href="contact.html" class="bg-amber-500 hover:bg-amber-600 text-stone-900 font-semibold px-6 py-3 rounded-full">
+        Contáctanos
+      </a>
+    </div>
+  </section>
+
+  <section id="menu" class="max-w-6xl mx-auto py-16 px-4">
+    <h2 class="text-3xl font-bold text-center mb-10">Nuestro menú</h2>
+    <div class="grid gap-6 md:grid-cols-3">
+      <article class="bg-white rounded-xl shadow p-6">
+        <h3 class="text-xl font-semibold mb-2">Espresso</h3>
+        <p class="mb-4 text-stone-600">Intenso, corto y con crema perfecta.</p>
+        <span class="font-bold text-amber-700">$2.50</span>
+      </article>
+      <article class="bg-white rounded-xl shadow p-6">
+        <h3 class="text-xl font-semibold mb-2">Capuchino</h3>
+        <p class="mb-4 text-stone-600">Espresso con leche cremosa y espuma suave.</p>
+        <span class="font-bold text-amber-700">$3.50</span>
+      </article>
+      <article class="bg-white rounded-xl shadow p-6">
+        <h3 class="text-xl font-semibold mb-2">Cold Brew</h3>
+        <p class="mb-4 text-stone-600">Infusionado en frío durante 18 horas.</p>
+        <span class="font-bold text-amber-700">$4.00</span>
+      </article>
+    </div>
+  </section>
+
+  <section id="nosotros" class="bg-stone-900 text-amber-50 py-16 px-4">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Sobre nosotros</h2>
+      <p class="text-lg text-amber-100">
+        En Café Brisa creemos que un buen café se disfruta sin prisa. Seleccionamos granos de
+        pequeños productores y los preparamos con dedicación para que cada taza sea un momento especial.
+      </p>
+    </div>
+  </section>
+
+  <footer class="text-center py-6 text-sm text-stone-500">
+    &copy; 2026 Café Brisa. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
