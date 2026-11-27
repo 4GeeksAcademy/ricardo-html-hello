@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Detalle del Producto - Café Brisa</title>
+  <title>Menú - Café Brisa</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -21,12 +21,41 @@
   </header>
 
   <main class="max-w-6xl mx-auto py-16 px-4">
-    <h1 class="text-3xl font-bold mb-6">Detalle del Producto</h1>
-    <div class="bg-white rounded-xl shadow p-6">
-      <h2 class="text-2xl font-semibold mb-4">Nombre del Producto</h2>
-      <p class="mb-4 text-stone-600">Descripción detallada del producto.</p>
-      <span class="font-bold text-amber-700">$4.00</span>
-    </div>
+    <section class="text-center mb-12">
+      <p class="text-sm uppercase tracking-[0.25em] text-amber-700 mb-3">Preparado con cariño</p>
+      <h1 class="text-4xl font-bold mb-4">Nuestro menú</h1>
+      <p class="max-w-2xl mx-auto text-stone-600">Café recién hecho y algo rico para acompañarlo. Precios estimados en dólares, sujetos a cambios.</p>
+    </section>
+
+    <section class="mb-12" aria-labelledby="cafes-title">
+      <h2 id="cafes-title" class="text-2xl font-bold border-b border-amber-200 pb-3 mb-6">Cafés</h2>
+      <div class="grid gap-4 md:grid-cols-2">
+        <article class="bg-white rounded-xl shadow-sm p-5 flex justify-between gap-4">
+          <div><h3 class="font-semibold text-lg">Espresso</h3><p class="text-stone-600 text-sm mt-1">Intenso, corto y recién extraído.</p></div><span class="font-bold text-amber-700 whitespace-nowrap">$2.50</span>
+        </article>
+        <article class="bg-white rounded-xl shadow-sm p-5 flex justify-between gap-4">
+          <div><h3 class="font-semibold text-lg">Americano</h3><p class="text-stone-600 text-sm mt-1">Espresso suavizado con agua caliente.</p></div><span class="font-bold text-amber-700 whitespace-nowrap">$3.00</span>
+        </article>
+        <article class="bg-white rounded-xl shadow-sm p-5 flex justify-between gap-4">
+          <div><h3 class="font-semibold text-lg">Cappuccino</h3><p class="text-stone-600 text-sm mt-1">Espresso, leche cremosa y espuma.</p></div><span class="font-bold text-amber-700 whitespace-nowrap">$4.00</span>
+        </article>
+        <article class="bg-white rounded-xl shadow-sm p-5 flex justify-between gap-4">
+          <div><h3 class="font-semibold text-lg">Latte de vainilla</h3><p class="text-stone-600 text-sm mt-1">Café con leche vaporizada y un toque de vainilla.</p></div><span class="font-bold text-amber-700 whitespace-nowrap">$4.75</span>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="acompanamientos-title">
+      <h2 id="acompanamientos-title" class="text-2xl font-bold border-b border-amber-200 pb-3 mb-6">Para acompañar</h2>
+      <div class="grid gap-4 md:grid-cols-2">
+        <article class="bg-white rounded-xl shadow-sm p-5 flex justify-between gap-4">
+          <div><h3 class="font-semibold text-lg">Croissant de mantequilla</h3><p class="text-stone-600 text-sm mt-1">Hojaldre dorado, recién horneado.</p></div><span class="font-bold text-amber-700 whitespace-nowrap">$3.25</span>
+        </article>
+        <article class="bg-white rounded-xl shadow-sm p-5 flex justify-between gap-4">
+          <div><h3 class="font-semibold text-lg">Tarta del día</h3><p class="text-stone-600 text-sm mt-1">Pregunta por nuestra porción casera.</p></div><span class="font-bold text-amber-700 whitespace-nowrap">$4.50</span>
+        </article>
+      </div>
+    </section>
   </main>
 
   <footer class="text-center py-6 text-sm text-stone-500">
